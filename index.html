@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King | Delivery e Ofertas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="bk-header">
+        <div class="container header-container">
+            <a href="#" class="logo-wrapper">
+                <div class="bk-logo">
+                    <span class="bun-top"></span>
+                    <span class="meat">BURGER<br>KING</span>
+                    <span class="bun-bottom"></span>
+                </div>
+            </a>
+
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#">Cupons</a></li>
+                    <li><a href="#" class="highlight">BK Rewards</a></li>
+                    <li><a href="#">Restaurantes</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="btn-delivery">🏍️ Delivery</button>
+                <button class="btn-login">Entrar</button>
+                <div class="cart-icon">🛒 <span class="badge">2</span></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>O WHOPPER<br>EM DOBRO CHEGOU!</h1>
+                    <p>Pegue 2 Whoppers pelo preço de 1. Só hoje no delivery ou no app.</p>
+                    <button class="btn-primary btn-large">Pedir Agora</button>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&w=800&q=80" alt="Dois Whoppers">
+                </div>
+            </div>
+        </section>
+
+        <section class="category-nav">
+            <div class="container category-grid">
+                <button class="cat-btn active">🍔 Carne</button>
+                <button class="cat-btn">🍗 Frango</button>
+                <button class="cat-btn">🍟 Acompanhamentos</button>
+                <button class="cat-btn">🍦 Sobremesas</button>
+                <button class="cat-btn">🥤 Bebidas</button>
+               
+            </div>
+        </section>
+
+        <section class="products-section container">
+            <h2 class="section-title">Fogo Grelhado, Sabor Sem Igual 🔥</h2>
+            
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=60" alt="Whopper">
+                        <span class="tag-promo">Mais Vendido</span>
+                    </div>
+                    <div class="card-info">
+                        <h3>Combo Whopper</h3>
+                        <p>Hambúrguer de carne 100% bovina, queijo derretido, picles, cebola, alface e tomate.</p>
+                        <div class="price-row">
+                            <span class="price">R$ 34,90</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1615719413546-198b25453f85?auto=format&fit=crop&w=500&q=60" alt="BK Chicken">
+                    </div>
+                    <div class="card-info">
+                        <h3>Combo BK Chicken</h3>
+                        <p>Frango crocante, maionese, alface fresquinha no pão com gergelim.</p>
+                        <div class="price-row">
+                            <span class="price">R$ 29,90</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&w=500&q=60" alt="Batata Frita">
+                    </div>
+                    <div class="card-info">
+                        <h3>Batata Frita Média</h3>
+                        <p>Batatas crocantes por fora e macias por dentro, sempre quentinhas.</p>
+                        <div class="price-row">
+                            <span class="price">R$ 12,90</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1639024471283-03518883512d?auto=format&fit=crop&w=500&q=60" alt="Onion Rings">
+                    </div>
+                    <div class="card-info">
+                        <h3>Onion Rings</h3>
+                        <p>Anéis de cebola empanados e fritos, crocantes e deliciosos.</p>
+                        <div class="price-row">
+                            <span class="price">R$ 14,90</span>
+                            <button class="btn-add">+</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="app-promo">
+            <div class="container promo-container">
+                <div class="promo-text">
+                    <h2>BAIXE O APP DO BK!</h2>
+                    <p>Acesse ofertas exclusivas, acumule pontos no Clube BK e faça seu pedido sem pegar fila.</p>
+                    <div class="store-buttons">
+                        <button class="btn-store">🍎 App Store</button>
+                        <button class="btn-store">▶ Google Play</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bk-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>BK e Você</h4>
+                <ul>
+                    <li><a href="#">Sobre o Burger King</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Seja um Franqueado</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Cardápio</h4>
+                <ul>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Carnes</a></li>
+                    <li><a href="#">Frangos</a></li>
+                    <li><a href="#">Sobremesas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Atendimento</h4>
+                <ul>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Regulamentos</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-col social-col">
+                <h4>Siga o BK</h4>
+                <div class="social-icons">
+                    <span class="icon">IG</span>
+                    <span class="icon">FB</span>
+                    <span class="icon">TW</span>
+                    <span class="icon">YT</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>TM & © 2024 Burger King Corporation. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
